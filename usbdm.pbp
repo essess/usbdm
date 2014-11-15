@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<project xmlns="http://www.purebasic.com/namespace" version="1.0" creator="PureBasic 5.31 (Windows - x86)">
+  <section name="config">
+    <options closefiles="1" openmode="0" name="usbdm"/>
+    <comment>
+      Copyright (c) 2014 Sean Stasiak. All rights reserved.
+      Developed by: Sean Stasiak &lt;sstasiak@gmail.com&gt;
+      Refer to license terms in license.txt; In the absence of such a file,
+      contact me at the above email address and I can provide you with one.
+    </comment>
+  </section>
+  <section name="data">
+    <explorer view="" pattern="0"/>
+    <log show="1"/>
+    <lastopen date="2014-11-14 19:11" user="Sean" host="CHERNOBYL"/>
+  </section>
+  <section name="files">
+    <file name="assert.pbi">
+      <config load="0" scan="1" panel="1" warn="1" lastopen="1" panelstate="+"/>
+      <fingerprint md5="51fe044b19519b6a73caaf5dcb2eaae1"/>
+    </file>
+    <file name="dll.pbi">
+      <config load="0" scan="1" panel="1" warn="1" lastopen="1" panelstate="+"/>
+      <fingerprint md5="61f1bbc1d8d3c722f1c52e12edbb35f5"/>
+    </file>
+    <file name="usbdm.pb">
+      <config load="0" scan="1" panel="1" warn="1" lastopen="1" panelstate="+"/>
+      <fingerprint md5="10746cd2f11ec06a6cf72a75fc879c72"/>
+    </file>
+  </section>
+  <section name="targets">
+    <target name="Default Target" enabled="1" default="1">
+      <inputfile value="usbdm.pb"/>
+      <outputfile value="usbdm.exe"/>
+      <executable value="usbdm.exe"/>
+      <options unicode="1"/>
+      <temporaryexe value="source"/>
+      <format exe="default" cpu="1"/>
+    </target>
+  </section>
+</project>
